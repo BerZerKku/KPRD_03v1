@@ -100,6 +100,10 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (CON_2
+      (FullPartName "CON_2.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
     (CAP_NP
       (FullPartName "CAP_NP.Normal")
       (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
@@ -194,47 +198,17 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 891"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 903"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 88 1423 88 538")
-        (Scroll "-191 0")
+        (Placement "44 2 3 -1 -1 -4 -23 88 1423 88 538")
+        (Scroll "-336 165")
         (Zoom "110")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KPRD\03V1\KPRD_03V1.DSN")
       (Schematic "MAIN")
-      (Page "MAIN"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 0 772 0 402")
-        (Scroll "0 310")
-        (Zoom "100")
-        (Occurrence "/A2"))
-      (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 154 911 154 627")
-        (Scroll "-58 120")
-        (Zoom "100")
-        (Occurrence "/A1"))
-      (Path "D:\PROJECT\CIRCUIT\ORCAD\KPRD\03V1\KPRD_03V1.DSN")
-      (Schematic "A - INPUTS")
-      (Page "A - INPUTS"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 44 816 44 446")
-        (Scroll "0 0")
-        (Zoom "100")
-        (Occurrence "/A2/B2"))
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 132 889 132 605")
-        (Scroll "0 204")
-        (Zoom "100")
-        (Occurrence "/A1/B2"))
-      (Path "D:\PROJECT\CIRCUIT\ORCAD\KPRD\03V1\KPRD_03V1.DSN")
-      (Schematic "B - INPUT")
-      (Page "B - INPUT")))
+      (Page "MAIN")))
   (MPSSessionName "Shcheblykin")
   (ISPCBBASICLICENSE "false"))
