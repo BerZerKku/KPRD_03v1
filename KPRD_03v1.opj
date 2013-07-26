@@ -100,16 +100,16 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (DIODE_TVS_BI
+      (FullPartName "DIODE_TVS_BI.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
     (CON_2
       (FullPartName "CON_2.Normal")
       (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
       (DeviceIndex "0"))
     (CAP_NP
       (FullPartName "CAP_NP.Normal")
-      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
-      (DeviceIndex "0"))
-    (DIODE_TVS_BI
-      (FullPartName "DIODE_TVS_BI.Normal")
       (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
       (DeviceIndex "0"))
     (TitleBlock0
@@ -190,10 +190,15 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\kprd_03v1.dsn")
-      (Path "Design Resources" ".\kprd_03v1.dsn" "MAIN")
+      (Path "Design Resources"
+         "d:\project\circuit\orcad\kprd\03v1\kprd_03v1.dsn")
+      (Path "Design Resources"
+         "d:\project\circuit\orcad\kprd\03v1\kprd_03v1.dsn" "MAIN")
+      (Path "Design Resources"
+         "d:\project\circuit\orcad\kprd\03v1\kprd_03v1.dsn" "B - INPUT")
       (Path "Outputs")
-      (Select "Design Resources" ".\kprd_03v1.dsn"))
+      (Select "Design Resources"
+         "d:\project\circuit\orcad\kprd\03v1\kprd_03v1.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -203,12 +208,32 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 88 1423 88 538")
-        (Scroll "-336 165")
+        (Placement "44 0 1 -1 -1 -4 -23 88 1423 88 538")
+        (Scroll "-191 34")
         (Zoom "110")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KPRD\03V1\KPRD_03V1.DSN")
       (Schematic "MAIN")
-      (Page "MAIN")))
+      (Page "MAIN"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 66 1463 66 551")
+        (Scroll "-264 20")
+        (Zoom "100")
+        (Occurrence "/A1"))
+      (Path "D:\PROJECT\CIRCUIT\ORCAD\KPRD\03V1\KPRD_03V1.DSN")
+      (Schematic "A - INPUTS")
+      (Page "A - INPUTS"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 110 1507 110 595")
+        (Scroll "-378 69")
+        (Zoom "100")
+        (Occurrence "/A1/B2"))
+      (Path "D:\PROJECT\CIRCUIT\ORCAD\KPRD\03V1\KPRD_03V1.DSN")
+      (Schematic "B - INPUT")
+      (Page "B - INPUT")))
   (MPSSessionName "Shcheblykin")
   (ISPCBBASICLICENSE "false"))
