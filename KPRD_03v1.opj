@@ -2,7 +2,9 @@
   (ProjectVersion "19981106")
   (ProjectType "PCB")
   (Folder "Design Resources"
-    (Folder "Library")
+    (Folder "Library"
+      (File "d:\project\circuit\orcad\lib\sample.olb"
+        (Type "Schematic Library")))
     (NoModify)
     (File ".\kprd_03v1.dsn"
       (Type "Schematic Design"))
@@ -100,12 +102,16 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
-    (DIODE_TVS_BI
-      (FullPartName "DIODE_TVS_BI.Normal")
+    (MOUNTING_HOLE_PLATED
+      (FullPartName "MOUNTING_HOLE_PLATED.Normal")
       (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
       (DeviceIndex "0"))
     (CON_2
       (FullPartName "CON_2.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (DIODE_TVS_BI
+      (FullPartName "DIODE_TVS_BI.Normal")
       (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
       (DeviceIndex "0"))
     (CAP_NP
@@ -196,6 +202,9 @@
          "d:\project\circuit\orcad\kprd\03v1\kprd_03v1.dsn" "MAIN")
       (Path "Design Resources"
          "d:\project\circuit\orcad\kprd\03v1\kprd_03v1.dsn" "B - INPUT")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "d:\project\circuit\orcad\lib\sample.olb")
       (Path "Outputs")
       (Select "Design Resources"
          "d:\project\circuit\orcad\kprd\03v1\kprd_03v1.dsn"))
@@ -208,9 +217,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 88 1423 88 538")
-        (Scroll "-191 34")
-        (Zoom "110")
+        (Placement "44 2 3 -1 -1 -4 -23 88 1423 88 538")
+        (Scroll "0 654")
+        (Zoom "224")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KPRD\03V1\KPRD_03V1.DSN")
       (Schematic "MAIN")
@@ -219,8 +228,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -23 66 1463 66 551")
-        (Scroll "-264 20")
-        (Zoom "100")
+        (Scroll "424 776")
+        (Zoom "400")
         (Occurrence "/A1"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KPRD\03V1\KPRD_03V1.DSN")
       (Schematic "A - INPUTS")
@@ -228,9 +237,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 110 1507 110 595")
-        (Scroll "-378 69")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -4 -23 110 1507 110 595")
+        (Scroll "0 592")
+        (Zoom "200")
         (Occurrence "/A1/B2"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KPRD\03V1\KPRD_03V1.DSN")
       (Schematic "B - INPUT")
