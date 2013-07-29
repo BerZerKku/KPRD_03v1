@@ -217,9 +217,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 88 1423 88 538")
-        (Scroll "0 654")
-        (Zoom "224")
+        (Placement "44 0 1 -1 -1 -4 -23 88 1423 88 538")
+        (Scroll "-418 0")
+        (Zoom "56")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KPRD\03V1\KPRD_03V1.DSN")
       (Schematic "MAIN")
@@ -228,8 +228,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -23 66 1463 66 551")
-        (Scroll "424 776")
-        (Zoom "400")
+        (Scroll "-264 0")
+        (Zoom "100")
         (Occurrence "/A1"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KPRD\03V1\KPRD_03V1.DSN")
       (Schematic "A - INPUTS")
