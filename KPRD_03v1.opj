@@ -207,7 +207,7 @@
       (Path "Design Resources" "Library"
          "d:\project\circuit\orcad\lib\symbols_gost.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\kprd_03v1.dsn" "A - INPUTS" "A - INPUTS"))
+      (Select "Design Resources" ".\kprd_03v1.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -218,8 +218,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -23 198 1595 198 673")
-        (Scroll "-360 25")
-        (Zoom "77")
+        (Scroll "-445 0")
+        (Zoom "57")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KPRD\03V1\KPRD_03V1.DSN")
       (Schematic "MAIN")
@@ -227,9 +227,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 0 1104 0 475")
-        (Scroll "-420 -10")
-        (Zoom "55")
+        (Placement "44 0 1 -1 -1 -4 -23 0 1104 0 475")
+        (Scroll "-298 0")
+        (Zoom "57")
         (Occurrence "/A1"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KPRD\03V1\KPRD_03V1.DSN")
       (Schematic "A - INPUTS")
