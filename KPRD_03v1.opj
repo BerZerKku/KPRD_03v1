@@ -4,6 +4,8 @@
   (Folder "Design Resources"
     (Folder "Library"
       (File "d:\project\circuit\orcad\lib\sample.olb"
+        (Type "Schematic Library"))
+      (File "d:\project\circuit\orcad\lib\symbols_gost.olb"
         (Type "Schematic Library")))
     (NoModify)
     (File ".\kprd_03v1.dsn"
@@ -102,6 +104,38 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (TitleBlock5N
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (TITLE_2
+      (FullPartName "TITLE_2.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SYMBOLS_GOST.OLB")
+      (DeviceIndex "0"))
+    (TITLE_3
+      (FullPartName "TITLE_3.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SYMBOLS_GOST.OLB")
+      (DeviceIndex "0"))
+    (TITLE_1
+      (FullPartName "TITLE_1.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SYMBOLS_GOST.OLB")
+      (DeviceIndex "0"))
+    (TITLE_5
+      (FullPartName "TITLE_5.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SYMBOLS_GOST.OLB")
+      (DeviceIndex "0"))
+    (TITLE_4
+      (FullPartName "TITLE_4.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SYMBOLS_GOST.OLB")
+      (DeviceIndex "0"))
+    (TitleBl_Page1
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\_SYMBOLS.OLB")
+      (DeviceIndex "0"))
+    (TitleBl_Page1_LIGHT
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\_SYMBOLS.OLB")
+      (DeviceIndex "0"))
+    (TitleBl_Page1_Side
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\_SYMBOLS.OLB")
+      (DeviceIndex "0"))
     (MOUNTING_HOLE_PLATED
       (FullPartName "MOUNTING_HOLE_PLATED.Normal")
       (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
@@ -120,12 +154,6 @@
       (DeviceIndex "0"))
     (TitleBlock0
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (TitleBl_Page1_LIGHT
-      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\_SYMBOLS.OLB")
-      (DeviceIndex "0"))
-    (TitleBl_Page1
-      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\_SYMBOLS.OLB")
       (DeviceIndex "0"))
     (CON_16
       (FullPartName "CON_16.Normal")
@@ -166,48 +194,20 @@
     (ACPL-M50L
       (FullPartName "ACPL-M50L.Normal")
       (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
-      (DeviceIndex "0"))
-    (RES_0.25W
-      (FullPartName "RES_0.25W.Normal")
-      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
-      (DeviceIndex "0"))
-    (VCC
-      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\_SYMBOLS.OLB")
-      (DeviceIndex "0"))
-    (DIODE_SCHOTTKY
-      (FullPartName "DIODE_SCHOTTKY.Normal")
-      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
-      (DeviceIndex "0"))
-    (DIODE_SCHOTTKY_DUAL
-      (FullPartName "DIODE_SCHOTTKY_DUAL.Normal")
-      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
-      (DeviceIndex "0"))
-    (GND
-      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\_SYMBOLS.OLB")
-      (DeviceIndex "0"))
-    (NPN_TO92
-      (FullPartName "NPN_TO92.Normal")
-      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\TRANSISTOR.OLB")
-      (DeviceIndex "0"))
-    (CON_32X3
-      (FullPartName "CON_32X3-4.Normal")
-      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
-      (DeviceIndex "3")))
+      (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "d:\project\circuit\orcad\kprd\03v1\kprd_03v1.dsn")
-      (Path "Design Resources"
-         "d:\project\circuit\orcad\kprd\03v1\kprd_03v1.dsn" "MAIN")
-      (Path "Design Resources"
-         "d:\project\circuit\orcad\kprd\03v1\kprd_03v1.dsn" "B - INPUT")
+      (Path "Design Resources" ".\kprd_03v1.dsn")
+      (Path "Design Resources" ".\kprd_03v1.dsn" "MAIN")
+      (Path "Design Resources" ".\kprd_03v1.dsn" "A - INPUTS")
+      (Path "Design Resources" ".\kprd_03v1.dsn" "B - INPUT")
+      (Path "Design Resources" ".\kprd_03v1.dsn" "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
-         "d:\project\circuit\orcad\lib\sample.olb")
+         "d:\project\circuit\orcad\lib\symbols_gost.olb")
       (Path "Outputs")
-      (Select "Design Resources"
-         "d:\project\circuit\orcad\kprd\03v1\kprd_03v1.dsn"))
+      (Select "Design Resources" ".\kprd_03v1.dsn" "A - INPUTS" "A - INPUTS"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -217,9 +217,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 88 1423 88 538")
-        (Scroll "-418 0")
-        (Zoom "56")
+        (Placement "44 0 1 -1 -1 -4 -23 198 1595 198 673")
+        (Scroll "-360 25")
+        (Zoom "77")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KPRD\03V1\KPRD_03V1.DSN")
       (Schematic "MAIN")
@@ -227,22 +227,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 66 1463 66 551")
-        (Scroll "-264 0")
-        (Zoom "100")
+        (Placement "44 2 3 -1 -1 -4 -23 0 1104 0 475")
+        (Scroll "-420 -10")
+        (Zoom "55")
         (Occurrence "/A1"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KPRD\03V1\KPRD_03V1.DSN")
       (Schematic "A - INPUTS")
-      (Page "A - INPUTS"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 110 1507 110 595")
-        (Scroll "0 592")
-        (Zoom "200")
-        (Occurrence "/A1/B2"))
-      (Path "D:\PROJECT\CIRCUIT\ORCAD\KPRD\03V1\KPRD_03V1.DSN")
-      (Schematic "B - INPUT")
-      (Page "B - INPUT")))
+      (Page "A - INPUTS")))
   (MPSSessionName "Shcheblykin")
   (ISPCBBASICLICENSE "false"))
